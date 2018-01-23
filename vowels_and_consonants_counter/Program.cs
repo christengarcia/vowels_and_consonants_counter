@@ -29,6 +29,15 @@ namespace vowels_and_consonants_counter
                 {
                     vowels = vowels + 1;
                 }
+
+                else
+                {
+                    consonants = consonants + 1;
+                }
+                if (sentence[i] == 't' || sentence[i] == '\0' || sentence[i] == ' ')
+                {
+                    special = special + 1;
+                }
             }
         }
     }
