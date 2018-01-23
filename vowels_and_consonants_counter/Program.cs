@@ -39,6 +39,12 @@ namespace vowels_and_consonants_counter
                     special = special + 1;
                 }
             }
+
+            consonants = consonants - special;
+            Console.WriteLine("No. of vowels {0}", vowels);
+            Console.WriteLine("No. of consonants {0}", consonants);
+            Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
